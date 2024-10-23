@@ -67,7 +67,7 @@ class _ItemState extends State<Item> {
                       children: [
                         const Icon(
                           Iconsax.star1,
-                          color: Color(0xFFBBE21),
+                          color: Color(0xFFBBE221),
                         ),
                         const SizedBox(
                           width: 2,
