@@ -29,9 +29,9 @@ class _CoffeeSizeState extends State<CoffeeSize> {
         height: 43,
         alignment: Alignment.center,
         decoration: BoxDecoration(
-          color:  widget.index == widget.selectedSize ? Color(0xffFFF5EE) : Color(0xffffff),
+          color: widget.index == widget.selectedSize ? Color(0xFFFFF5EE) : Color(0xFFFFFFFF),  // Correction ici
           border: Border.all(
-            color: widget.index == widget.selectedSize ? Color(0xffC67C4E) : Color(0xffDEDEDE),
+            color: widget.index == widget.selectedSize ? Color(0xFFC67C4E) : Color(0xFFDEDEDE),
           ),
           borderRadius: BorderRadius.circular(12),
         ),
@@ -40,7 +40,7 @@ class _CoffeeSizeState extends State<CoffeeSize> {
           style: GoogleFonts.sora(
             fontSize: 14,
             fontWeight: FontWeight.w400,
-            color: widget.index == widget.selectedSize ? Color(0xffC67C4E) : Colors.black
+            color: widget.index == widget.selectedSize ? Color(0xFFC67C4E) : Colors.black
           ),
         ),
       ),
