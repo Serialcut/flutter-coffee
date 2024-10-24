@@ -325,7 +325,7 @@ class _DetailState extends State<Detail> {
                                 color: const Color(0xff9B9B9B)),
                           ),
                           Text(
-                            "\ 4.53€",
+                            "4.53€",
                             style: GoogleFonts.sora(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w600,
