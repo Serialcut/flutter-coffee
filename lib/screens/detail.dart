@@ -97,7 +97,7 @@ class _DetailState extends State<Detail> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Text(
-                    "Cappucino",
+                    "Florfina",
                     style: GoogleFonts.sora(
                         fontSize: 20,
                         fontWeight: FontWeight.w600,
@@ -107,7 +107,7 @@ class _DetailState extends State<Detail> {
                     height: 8,
                   ),
                   Text(
-                    "with Chocolate",
+                    "80 % Arabica/20 % Robusta.",
                     style: GoogleFonts.sora(
                       fontSize: 12,
                       fontWeight: FontWeight.w400,
@@ -219,7 +219,7 @@ class _DetailState extends State<Detail> {
                         textAlign: TextAlign.justify,
                         text: TextSpan(
                           text:
-                              "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo.. ",
+  "Une alliance subtile d’Arabica, enrichie d’une pointe de Robusta. Un assemblage complexe et équilibré de plusieurs terroirs pour un goût intense souligné par une agréable finesse.",
                           style: GoogleFonts.sora(
                               color: const Color(0xff9B9B9B),
                               fontWeight: FontWeight.w400,
@@ -227,7 +227,7 @@ class _DetailState extends State<Detail> {
                               height: 1.64),
                           children: [
                             TextSpan(
-                              text: "Read More",
+                              text: "Suite...",
                               style: GoogleFonts.sora(
                                 color: const Color(0xffC67C4E),
                                 fontWeight: FontWeight.w600,
@@ -318,14 +318,14 @@ class _DetailState extends State<Detail> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "Price",
+                            "Tarif",
                             style: GoogleFonts.sora(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w400,
                                 color: const Color(0xff9B9B9B)),
                           ),
                           Text(
-                            "\$ 4.53",
+                            "\ 4.53 €",
                             style: GoogleFonts.sora(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w600,
@@ -339,7 +339,7 @@ class _DetailState extends State<Detail> {
                         child: CustomButton(
                           onPressed: () =>
                               Navigator.pushNamed(context, Routes.order),
-                          title: 'Buy Now',
+                          title: 'Acheter',
                         ),
                       )
                     ],
