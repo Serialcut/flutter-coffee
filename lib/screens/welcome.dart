@@ -39,7 +39,7 @@ class _WelcomeState extends State<Welcome> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Coffee so good, \nyour taste buds\n will love it.",
+                    "Un café si bon, \nque vos papilles\n vont l'adorer.",
                     style: GoogleFonts.sora(
                       fontSize: 34,
                       fontWeight: FontWeight.w600,
@@ -51,7 +51,7 @@ class _WelcomeState extends State<Welcome> {
                     height: size.height * 0.010,
                   ),
                   Text(
-                    "The best grain, the finest roast, \n the powerful flavor.",
+                    "Le meilleur grain, la plus fine torréfaction, \n la saveur puissante.",
                     style: GoogleFonts.sora(
                       fontSize: 14,
                       fontWeight: FontWeight.w400,
@@ -66,7 +66,7 @@ class _WelcomeState extends State<Welcome> {
                     height: 62,
                     width: size.width * 0.80,
                     child: CustomButton(
-                      title: 'Get Started',
+                      title: "Commencer",
                       onPressed: () => Navigator.pushNamed(
                         context,
                         Routes.home,
