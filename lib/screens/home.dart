@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
                               Row(
                                 children: [
                                   Text(
-                                    "Bilzen, Tanjungbalai",
+                                    "Gennevilliers, France",
                                     style: GoogleFonts.sora(
                                       color: const Color(0xffDDDDDD),
                                       fontSize: 14,
@@ -101,7 +101,7 @@ class _HomeState extends State<Home> {
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(16),
                             ),
-                            hintText: "Search coffee",
+                            hintText: "Chercher",
                             hintStyle: GoogleFonts.sora(
                               color: const Color(0xff989898),
                             ),
