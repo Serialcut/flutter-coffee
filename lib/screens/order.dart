@@ -21,7 +21,7 @@ class _OrderState extends State<Order> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text(
-          'Order',
+          'Commande',
           style: GoogleFonts.sora(
             fontSize: 18,
             fontWeight: FontWeight.w600,
@@ -55,7 +55,7 @@ class _OrderState extends State<Order> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Delivery Address",
+                      "Adresse de livraison",
                       style: GoogleFonts.sora(
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
@@ -66,7 +66,7 @@ class _OrderState extends State<Order> {
                       height: 16,
                     ),
                     Text(
-                      "Jl. Kpg Sutoyo",
+                      "entre Mars et Jupiter",
                       style: GoogleFonts.sora(
                         fontSize: 14,
                         fontWeight: FontWeight.w600,
@@ -77,7 +77,7 @@ class _OrderState extends State<Order> {
                       height: 8,
                     ),
                     Text(
-                      "Kpg. Sutoyo No. 620, Bilzen, Tanjungbalai.",
+                      "adresse complete du destinataire",
                       style: GoogleFonts.sora(
                         fontSize: 12,
                         fontWeight: FontWeight.w600,
@@ -111,7 +111,7 @@ class _OrderState extends State<Order> {
                                 width: 4,
                               ),
                               Text(
-                                "Edit Address",
+                                "Modifier l'adresse",
                                 style: GoogleFonts.sora(
                                   fontSize: 12,
                                   fontWeight: FontWeight.normal,
@@ -143,7 +143,7 @@ class _OrderState extends State<Order> {
                                 width: 4,
                               ),
                               Text(
-                                "Add Note",
+                                "Ajouter une note",
                                 style: GoogleFonts.sora(
                                   fontSize: 12,
                                   fontWeight: FontWeight.normal,
@@ -195,7 +195,7 @@ class _OrderState extends State<Order> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              "Cappucino",
+                              "Florfina",
                               style: GoogleFonts.sora(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
@@ -206,7 +206,7 @@ class _OrderState extends State<Order> {
                               height: 4,
                             ),
                             Text(
-                              "with Chocolate",
+                              "80% Arabica/20% Robusta",
                               style: GoogleFonts.sora(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w400,
@@ -314,7 +314,7 @@ class _OrderState extends State<Order> {
                           width: 12,
                         ),
                         Text(
-                          "1 Discount is applied",
+                          "La réduction est appliquée",
                           style: GoogleFonts.sora(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
@@ -338,7 +338,7 @@ class _OrderState extends State<Order> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Payment Summary",
+                      "Récapitulatif des paiements",
                       style: GoogleFonts.sora(
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
@@ -351,14 +351,14 @@ class _OrderState extends State<Order> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Price",
+                          "Montant",
                           style: GoogleFonts.sora(
                             fontSize: 14,
                             fontWeight: FontWeight.w400,
                           ),
                         ),
                         Text(
-                          "\$ 4.53",
+                          "4.53€",
                           style: GoogleFonts.sora(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
@@ -373,7 +373,7 @@ class _OrderState extends State<Order> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Delivery Fee",
+                          "Frais de livraison",
                           style: GoogleFonts.sora(
                             fontSize: 14,
                             fontWeight: FontWeight.w400,
@@ -382,7 +382,7 @@ class _OrderState extends State<Order> {
                         Row(
                           children: [
                             Text(
-                              "\$ 2.0",
+                              "2.0€",
                               style: GoogleFonts.sora(
                                 decoration: TextDecoration.lineThrough,
                                 fontSize: 14,
@@ -393,7 +393,7 @@ class _OrderState extends State<Order> {
                               width: 8,
                             ),
                             Text(
-                              "\$ 1.0",
+                              "1.0€",
                               style: GoogleFonts.sora(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w600,
@@ -410,14 +410,14 @@ class _OrderState extends State<Order> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Total Payment",
+                          "Total",
                           style: GoogleFonts.sora(
                             fontSize: 14,
                             fontWeight: FontWeight.w400,
                           ),
                         ),
                         Text(
-                          "\$ 5.53",
+                          "5.53€",
                           style: GoogleFonts.sora(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
@@ -476,7 +476,7 @@ class _OrderState extends State<Order> {
                                         borderRadius: BorderRadius.circular(20),
                                       ),
                                       child: Text(
-                                        "Cash",
+                                        "Espèces",
                                         style: GoogleFonts.sora(
                                           fontSize: 12,
                                           fontWeight: FontWeight.w400,
@@ -489,7 +489,7 @@ class _OrderState extends State<Order> {
                                       width: 10,
                                     ),
                                     Text(
-                                      "\$ 5.53",
+                                      "5.53€",
                                       style: GoogleFonts.sora(
                                         fontSize: 12,
                                         fontWeight: FontWeight.w400,
@@ -523,7 +523,7 @@ class _OrderState extends State<Order> {
                       width: 315,
                       height: 62,
                       child: CustomButton(
-                        title: 'Order',
+                        title: 'Commander',
                         onPressed: () => Navigator.of(context).pushNamed(Routes.delivery),
                       ),
                     )
