@@ -88,7 +88,7 @@ class _DeliveryState extends State<Delivery> {
                     ),
                   ),
                   Text(
-                    "10 minutes left",
+                    "Livraison dans 10 minutes",
                     style: GoogleFonts.sora(
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
@@ -99,14 +99,14 @@ class _DeliveryState extends State<Delivery> {
                   ),
                   RichText(
                     text: TextSpan(
-                      text: "Delivery to ",
+                      text: "Livraison à ",
                       style: GoogleFonts.sora(
                         color: Color(0xff808080),
                         fontSize: 12,
                       ),
                       children: [
                         TextSpan(
-                          text: "Jl. Kpg Sutoyo",
+                          text: "entre mars et jupiter",
                           style: GoogleFonts.sora(
                             color: Colors.black,
                             fontSize: 12,
@@ -204,7 +204,7 @@ class _DeliveryState extends State<Delivery> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              "Delivered your order",
+                              "Votre commande a été livrée",
                               style: GoogleFonts.sora(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w600,
@@ -212,7 +212,7 @@ class _DeliveryState extends State<Delivery> {
                               ),
                             ),
                             Text(
-                              "We deliver your goods to you in \nthe shortes possible time.",
+                              "Nous vous livrons vos articles dans les plus brefs délais.",
                               style: GoogleFonts.sora(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w400,
@@ -245,7 +245,7 @@ class _DeliveryState extends State<Delivery> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  "Johan Hawn",
+                                  "Franck Da Costa",
                                   style: GoogleFonts.sora(
                                     fontSize: 14,
                                     fontWeight: FontWeight.w600,
@@ -253,7 +253,7 @@ class _DeliveryState extends State<Delivery> {
                                   ),
                                 ),
                                 Text(
-                                  "Personal Courier",
+                                  "Contacter",
                                   style: GoogleFonts.sora(
                                     fontSize: 12,
                                     fontWeight: FontWeight.w400,
